@@ -1,6 +1,6 @@
   
 from datetime import datetime
-from Flask_blog import db
+from flaskblog import db
 
 
 class User(db.Model):
