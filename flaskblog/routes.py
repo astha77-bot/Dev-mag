@@ -8,14 +8,14 @@ from flaskblog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 posts=[
     {
-      'author':'Daniel',
-      'title':'A Gentle Introduction to Generative Adversarial Networks (GANs)',
-      'content':'Generative Adversarial Networks are an approach to generative modeling using deep learning methods, such as convolutional neural networks.',
+      'author':'Marketing',
+      'title':'Activity 1-1: SNX ISR sales training',
+      'content':'More questions Q&A list',
       'date_posted':'February 27,2021'
       },
       {
-      'author':'Rebecca',
-      'title':'Creativity and artificial intelligence',
+      'author':'Marketing',
+      'title':'Activity 1-1:SNX resellers sales training',
       'content':'Creativity is a fundamental feature of human intelligence, and a challenge for AI.',
       'date_posted':'February 26 ,2021'
       }    
